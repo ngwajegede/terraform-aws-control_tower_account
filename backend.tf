@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "aft-backend"
+    bucket = "aftbackend"
     key    = "aft-poc"
     region = "us-east-1"
   }
